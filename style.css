@@ -1,0 +1,19 @@
+.logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-color: black;
+    border-style: dashed;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: cornsilk;
+}
+
+.not-bullet {
+    list-style: none;
+}
