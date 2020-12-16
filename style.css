@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     width: 4rem;
     height: 4rem;
@@ -16,4 +21,28 @@
 
 .not-bullet {
     list-style: none;
+}
+
+.inline {
+    display: inline;
+    margin-right: 2rem;
+    font-size: larger;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.nav .link {
+    text-decoration: none;
+    color: wheat;
+}
+
+.nav > h1 {
+    color: azure;
 }
