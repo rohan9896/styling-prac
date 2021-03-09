@@ -77,7 +77,7 @@ header {
 .welcomeToGhost {
     margin: 2rem;
     display: grid;
-    grid-template-columns: 5fr 4fr;
+    grid-template-columns: 4fr 3fr;
     column-gap: 2rem;
     word-wrap: break-word;
 }
