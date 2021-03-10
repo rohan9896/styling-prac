@@ -76,12 +76,21 @@ header {
 
 .welcomeToGhost {
     margin: 2rem;
-    display: grid;
-    grid-template-columns: 4fr 3fr;
-    column-gap: 2rem;
+    display: flex;
+    justify-content: space-around;
     word-wrap: break-word;
 }
 
-.welcomeToGhost > div > image {
-    max-width: 400px;
+#welcomeToGhostImage {
+    flex-grow: 4;
+    max-width: 100%;
 }
+
+/* @media screen and (max-width: 1020) {
+    .welcomeToGhost {
+        margin: 2rem 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+} */
