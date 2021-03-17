@@ -75,22 +75,13 @@ header {
 }
 
 .welcomeToGhost {
-    margin: 2rem;
-    display: flex;
-    justify-content: space-around;
-    word-wrap: break-word;
+    display: grid;
 }
 
-#welcomeToGhostImage {
-    flex-grow: 4;
-    max-width: 100%;
+.welcomeToGhost__img {
+    grid-column: 1/3;
 }
 
-/* @media screen and (max-width: 1020) {
-    .welcomeToGhost {
-        margin: 2rem 1rem;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-} */
+.welcomeToGhost__text {
+    grid-column: 3/4;
+}
